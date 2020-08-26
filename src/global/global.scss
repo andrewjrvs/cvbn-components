@@ -1,0 +1,11 @@
+@import "../variables";
+
+
+.cvbn-navigation-bar-wrapper {
+    margin-bottom: $menu-footer-height;
+
+    @media #{$menu-mediaQuery} {
+        margin-bottom: auto;
+        margin-right: calc(#{$menu-min-width} + #{$grid-gutter-width / 2});
+    }
+}
