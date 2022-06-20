@@ -35,7 +35,7 @@ export class NavBar {
 
   render() {
     return <Host class="menu" role="navigation">
-              <nav>
+              <nav part="nav">
                {/* {this.slots.map((link) => 
                 <a href={link.getAttribute('href')}><i class={link.getAttribute('icon')}></i></a>
                )} */}

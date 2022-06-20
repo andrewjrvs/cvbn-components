@@ -14,6 +14,14 @@
 | `label`  | `label`   |             | `string` | `undefined` |
 
 
+## Shadow Parts
+
+| Part     | Description |
+| -------- | ----------- |
+| `"icon"` |             |
+| `"item"` |             |
+
+
 ----------------------------------------------
 
 *Built with [StencilJS](https://stenciljs.com/)*

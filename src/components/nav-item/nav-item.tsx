@@ -32,9 +32,9 @@ export class NavItem {
 
   render() {
     return <Host>
-              <a href={this.href} aria-label={this.label}>
+              <a part="item" href={this.href} aria-label={this.label}>
                 {this.icon ? 
-                  <i class="cvbn-icon">{this.icon}</i> : <div class="cvbn-icon"><slot name="icon"></slot></div>
+                  <i class="cvbn-icon">{this.icon}</i> : <div class="cvbn-icon" part="icon"><slot name="icon"></slot></div>
                 }
               </a>
           </Host>;
