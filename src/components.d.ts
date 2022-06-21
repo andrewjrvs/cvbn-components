@@ -11,6 +11,7 @@ export namespace Components {
     interface CvbnNavItem {
         "href": string;
         "icon": string;
+        "isActive": boolean;
         "label": string;
     }
 }
@@ -38,6 +39,7 @@ declare namespace LocalJSX {
     interface CvbnNavItem {
         "href"?: string;
         "icon"?: string;
+        "isActive"?: boolean;
         "label"?: string;
     }
     interface IntrinsicElements {

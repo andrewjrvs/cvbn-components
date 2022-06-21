@@ -7,11 +7,12 @@
 
 ## Properties
 
-| Property | Attribute | Description | Type     | Default     |
-| -------- | --------- | ----------- | -------- | ----------- |
-| `href`   | `href`    |             | `string` | `undefined` |
-| `icon`   | `icon`    |             | `string` | `undefined` |
-| `label`  | `label`   |             | `string` | `undefined` |
+| Property   | Attribute   | Description | Type      | Default     |
+| ---------- | ----------- | ----------- | --------- | ----------- |
+| `href`     | `href`      |             | `string`  | `undefined` |
+| `icon`     | `icon`      |             | `string`  | `undefined` |
+| `isActive` | `is-active` |             | `boolean` | `undefined` |
+| `label`    | `label`     |             | `string`  | `undefined` |
 
 
 ## Shadow Parts

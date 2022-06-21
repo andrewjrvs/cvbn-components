@@ -19,6 +19,11 @@ a {
 
   }
 
+  &.active {
+    background: linear-gradient(90deg, #ffffff99, transparent);
+    background: var(--cvbn-active-item-bg, linear-gradient(90deg, #ffffff99, transparent));
+  }
+
   &::after {
     content: attr(aria-label);
     color: #555;

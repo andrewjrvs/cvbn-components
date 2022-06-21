@@ -17,6 +17,9 @@ export class NavItem {
   @Prop()
   label: string;
 
+  @Prop()
+  isActive: boolean;
+
   constructor() {
     //console.log(document.querySelectorAll('cvbn-navigation-bar > *'));
   }
@@ -32,7 +35,10 @@ export class NavItem {
 
   render() {
     return <Host>
-              <a part="item" href={this.href} aria-label={this.label}>
+              <a part="item" href={this.href} aria-label={this.label} 
+                class={{
+                  'active': this.isActive
+                }}>
                 {this.icon ? 
                   <i class="cvbn-icon">{this.icon}</i> : <div class="cvbn-icon" part="icon"><slot name="icon"></slot></div>
                 }
